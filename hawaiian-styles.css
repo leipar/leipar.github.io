@@ -1,0 +1,84 @@
+*
+{
+    padding: 0;
+    margin: 0;
+
+}
+body
+{
+     background-image: url("images2/surfing_main_09.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     box-sizing: border-box;
+     font-family: sans-serif;
+     
+ 
+
+ 
+}
+body h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium'; 
+    font-size: 500%;
+}
+.menu-bar
+{
+      background: orange;
+      text-align: center;
+
+}
+.menu-bar ul
+
+{
+
+       display: inline-flex;
+       list-style: none;
+       color: #fff;
+
+}
+.menu-bar ul li
+{
+
+        width: 120px;
+        margin: 15px;
+        padding: 15px;
+        
+}  
+
+ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color:black;
+    
+
+}
+
+img {
+    width: 10%;
+    margin: 10px auto;
+    display: right;
+    border: 5px solid; 
+    color: orange
+    
+
+    
+    
+
+
+
+
+
+}
+
+
+
+
+
