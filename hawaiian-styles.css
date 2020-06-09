@@ -1,0 +1,74 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body {
+     background-image: url("images2/surfing_09.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     box-sizing: border-box;
+     font-family: sans-serif;
+}
+.text-left{
+    text-align: left;
+}
+body h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium'; 
+    font-size: 500%;
+}
+.menu-bar {
+      background: rgb(235, 148, 18);
+      text-align: center;
+}
+.menu-bar ul {
+
+       display: inline-flex;
+       list-style: none;
+       color:w;
+}
+.menu-bar ul li {
+
+        width: 120px;
+        margin: 15px;
+        padding: 15px;        
+}  
+
+ul li a {
+    text-decoration: none;
+    color:#fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color:rgb(199, 33, 33); 
+}
+
+img {
+    width: 90%;
+    margin: 10px auto;
+    display: right;
+    border: 3px solid; 
+    color: rgb(252, 252, 251);
+
+}
+
+.closets {
+     float: left;
+     width: 20%;
+     padding-top: 500px;
+     padding-left: 60px;
+        
+}
+
+ .parallax{
+    background: url ("images2/surfing_07.jpg") 
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+ }   
+ 
